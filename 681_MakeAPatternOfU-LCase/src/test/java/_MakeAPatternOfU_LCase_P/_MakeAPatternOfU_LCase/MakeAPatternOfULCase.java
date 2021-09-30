@@ -83,13 +83,13 @@ public class MakeAPatternOfULCase {
 			if(i<lo.size() && (j<up.size())) {
 			if(count%2==0 ) {
 				out.append(lo.get(i));
-				System.out.println("letter at los " + i+ "is appened" +out);
+			//	System.out.println("letter at lo " + i+ "is appened" +out);
 				i++;
 			}
 				
 			else if(count%2!=0) {
 				out.append(up.get(j));
-				System.out.println("letter at ups " + j+ "is appened" +out);
+			//	System.out.println("letter at up " + j+ "is appened" +out);
 				j++;
 		
 			}
